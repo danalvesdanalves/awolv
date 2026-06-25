@@ -17,9 +17,10 @@
 <meta name="twitter:title" content="ALI WOLV">
 <meta name="twitter:image" content="https://danalvesdanalves.github.io/awolv/og.png">
 <style>
+  html, body { height: 100%; overscroll-behavior: none; }
   body {
     margin: 0;
-    min-height: 100vh;
+    height: 100dvh;
     background: #000;
     color: #6ee6f0;
     font-family: Helvetica, Arial, sans-serif;
@@ -30,6 +31,7 @@
     justify-content: center;
     text-align: center;
   }
+  @media (pointer: coarse) { body { overflow: hidden; } }
   h1 { margin: 0 0 1.5rem; }
   nav { display: flex; flex-direction: column; gap: 0.3rem; }
   h1, nav { font-size: 2.4rem; }
