@@ -21,6 +21,8 @@
     justify-content: center;
     text-align: center;
   }
+  main { display: flex; flex-direction: column; align-items: center; gap: 1.5em; }
+  img { width: min(60vw, 320px); height: auto; display: block; }
   nav { display: flex; flex-direction: column; gap: 0.3em; }
   a { color: #6ee6f0; text-decoration: none; }
   a:hover { color: #ff2bb0; }
@@ -28,11 +30,14 @@
 </style>
 </head>
 <body>
-  <nav>
-    <a href="#">YOUTUBE</a>
-    <a href="#">APPLE MUSIC</a>
-    <a href="#">SPOTIFY</a>
-    <a href="#">ITUNES STORE</a>
-  </nav>
+  <main>
+    <img src="../album.jpg" alt="">
+    <nav>
+      <a href="#">YOUTUBE</a>
+      <a href="#">APPLE MUSIC</a>
+      <a href="#">SPOTIFY</a>
+      <a href="#">ITUNES STORE</a>
+    </nav>
+  </main>
 </body>
 </html>
